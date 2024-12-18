@@ -1,0 +1,21 @@
+footer {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px 10px;
+  margin: 0;
+  background-color: #000000;
+  text-align: center;
+}
+
+footer p {
+  color: #ffff;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 14px;
+  margin: 10px auto;
+  padding: 10px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
