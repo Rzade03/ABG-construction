@@ -92,6 +92,104 @@
 
 }
 
+.cu_container {
+  width: 100%;
+  height: auto;
+  padding-bottom: 4%;
+  background-color: blue;
+}
+.cu_container h2 {
+  color: #dddcdc;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding: 15px;
+}
+.cu-content {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  background-color: lightblue;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  max-width: 600px; /* Optional: to limit the form width */ margin: 0 auto; /* Center the form container */
+}
+.forms p {
+  color: #ffffff;
+  font-size: 19px;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  margin-left: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 1px;
+  color: #fff;
+  border-radius: 10px;
+
+}
+.forms label .input {
+  width: 300px;
+  max-width: 300px;
+  padding: 10px;
+  outline: 0;
+  border-radius: 1px;
+  border: solid blue 2px;
+}
+.forms .submit {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10%;
+  
+}
+.submit {
+  border: none;
+  outline: none;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+  margin-top: 10px;
+}
+.submit:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  font-weight: 400;
+}
+.contacts {
+  width: 100%;
+  text-align: center; /* Center text */
+}
+.contacts .text {
+  margin: 10px 0;
+}
+.contacts span {
+  font-size: 50px;
+  color: blue;
+  margin: 2px;
+}
+.contacts h4 {
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+.contacts p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
 
 
 
